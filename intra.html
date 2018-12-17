@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>REVIEW ANALYSIS</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div id="center">
+<center><H1>REVIEW ANALYSIS<H1></center>
+</div>
+	<div id="header">
+	
+		<div>
+			<ul>
+				<li class="current">
+					<a href="index.html">HOME</a>
+				</li>
+				<li>
+					<a href="fest.html">FEST</a>
+				</li>
+				<li>
+					<a href="intra.html">INTRACOLLEGE</a>
+				</li>
+				<li>
+					<a href="contact.html">CONTACT US</a>
+				</li>
+				<li>
+					<a href="login_form.php">ADMIN LOGIN</a>
+				</li>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="footer">
+		<div>
+			
+			<table>
+			<form method="post" action = "reviewDB.py"> <font color="#125400">
+				<h2>FEEDBACK FORM --- INTRA COLLEGE</h2></font>
+				 <font color="red">
+				FIELDS MARKED ' * ' ARE REQUIRED </font>
+				<br><br><br><br>
+				 <font color="blue">
+				<label><span><font color="red">*</font>NAME&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+					<input type="text"  name="names" id="name" required="required">
+				</label><br><br>
+				<label><span><font color="red">*</font>Roll No&nbsp&nbsp&nbsp&nbsp</span>
+					<input type="text" name="rollno" id="emailid" required="required">
+				</label><br><br>
+				
+				<label for="review"><span><font color="red">*</font>REVIEW</span>
+					
+					<textarea name="review" id="review" required="required"  cols="60" rows="5"></textarea>
+				</label></font><br><br>
+				<br><br>
+				<input type="submit" class="submit" value="SUBMIT"><br><br>
+				<input type="hidden" name="event" value="intracollege">
+			</form>
+			</table>
+			<br><br><br><br><br><br><br>
+			
+	</div>
+	&copy; Copyright 2018. All rights reserved.
+</body>
+</html>
